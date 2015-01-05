@@ -1,0 +1,16 @@
+// Input: data bits
+NET "d[3]" LOC = "T5"; // left most button
+NET "d[2]" LOC = "V8";
+NET "d[1]" LOC = "U8";
+NET "d[0]" LOC = "N8";
+
+// Input: control bits
+NET "s[2]" LOC = "V9";
+NET "s[1]" LOC = "T9";
+NET "s[0]" LOC = "T10"; // right most button
+
+// Output
+NET "y[3]" LOC = "T11"; // left most LED
+NET "y[2]" LOC = "R11";
+NET "y[1]" LOC = "N11";
+NET "y[0]" LOC = "M11";

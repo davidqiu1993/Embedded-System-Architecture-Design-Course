@@ -1,0 +1,7 @@
+NET "b[1]" LOC = "T5";
+NET "b[0]" LOC = "V8";
+NET "a[1]" LOC = "U8";
+NET "a[0]" LOC = "N8";
+NET "a_eq_b" LOC = "T11";
+NET "a_gt_b" LOC = "R11";
+NET "a_lt_b" LOC = "N11";

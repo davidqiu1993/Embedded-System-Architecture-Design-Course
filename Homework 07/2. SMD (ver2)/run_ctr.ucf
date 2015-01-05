@@ -1,0 +1,28 @@
+// Clock
+NET "CLK" CLOCK_DEDICATED_ROUTE = FALSE;
+NET "CLK" LOC = "V10";
+
+// 7-Segment Display
+NET "SEG[1]" LOC = "T17"; // CA
+NET "SEG[2]" LOC = "T18"; // CB
+NET "SEG[3]" LOC = "U17"; // CC
+NET "SEG[4]" LOC = "U18"; // CD
+NET "SEG[5]" LOC = "M14"; // CE
+NET "SEG[6]" LOC = "N14"; // CF
+NET "SEG[7]" LOC = "L14"; // CG
+NET "SEG[0]" LOC = "M13"; // DP
+NET "AN[0]" LOC = "N16"; // AN0
+NET "AN[1]" LOC = "N15"; // AN1
+NET "AN[2]" LOC = "P18"; // AN2
+NET "AN[3]" LOC = "P17"; // AN3
+
+// Inputs
+NET "nickel" LOC = "C4"; // BTNL
+NET "dime" LOC = "B8"; // BTN Central
+NET "quarter" LOC = "D9"; // NTNR
+
+// Return values
+NET "ret[3]" LOC = "T11"; // Left most LED
+NET "ret[2]" LOC = "R11";
+NET "ret[1]" LOC = "N11";
+NET "ret[0]" LOC = "M11";

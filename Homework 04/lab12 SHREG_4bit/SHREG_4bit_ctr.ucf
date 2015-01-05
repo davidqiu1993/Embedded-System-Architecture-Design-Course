@@ -1,0 +1,11 @@
+// Input: Data, CLK, CLR
+NET "D" LOC = "T5"; // left most button
+NET "CLK" CLOCK_DEDICATED_ROUTE = FALSE;
+NET "CLK" LOC = "B8"; // central button
+NET "CLR" LOC = "C9"; // down (BTND)
+
+// Output: Q's
+NET "Q[3]" LOC = "T11"; // left most LED
+NET "Q[2]" LOC = "R11";
+NET "Q[1]" LOC = "N11";
+NET "Q[0]" LOC = "M11";

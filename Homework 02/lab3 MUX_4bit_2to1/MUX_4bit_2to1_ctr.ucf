@@ -1,0 +1,13 @@
+NET "y[3]" LOC = "T11";
+NET "y[2]" LOC = "R11";
+NET "y[1]" LOC = "N11";
+NET "y[0]" LOC = "M11";
+NET "s" LOC = "B8";
+NET "b[3]" LOC = "T5";
+NET "b[2]" LOC = "V8";
+NET "b[1]" LOC = "U8";
+NET "b[0]" LOC = "N8";
+NET "a[3]" LOC = "M8";
+NET "a[2]" LOC = "V9";
+NET "a[1]" LOC = "T9";
+NET "a[0]" LOC = "T10";

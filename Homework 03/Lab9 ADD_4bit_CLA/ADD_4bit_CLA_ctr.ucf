@@ -1,0 +1,23 @@
+// Input: A
+NET "A[3]" LOC = "T5"; // left most button
+NET "A[2]" LOC = "V8";
+NET "A[1]" LOC = "U8";
+NET "A[0]" LOC = "N8";
+
+// Input: B
+NET "B[3]" LOC = "M8";
+NET "B[2]" LOC = "V9";
+NET "B[1]" LOC = "T9";
+NET "B[0]" LOC = "T10"; // right most button
+
+// Input: Carry in
+NET "Cin" LOC = "B8"; // central button
+
+// Output: Carry out
+NET "Cout" LOC = "T11"; // left most LED
+
+// Output: S
+NET "S[3]" LOC = "N11";
+NET "S[2]" LOC = "M11";
+NET "S[1]" LOC = "V15";
+NET "S[0]" LOC = "U15";

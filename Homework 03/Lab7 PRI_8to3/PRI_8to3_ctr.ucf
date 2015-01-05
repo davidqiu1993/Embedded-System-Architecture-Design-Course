@@ -1,0 +1,15 @@
+// Inputs
+NET "x[7]" LOC = "T5"; // left most button
+NET "x[6]" LOC = "V8";
+NET "x[5]" LOC = "U8";
+NET "x[4]" LOC = "N8";
+NET "x[3]" LOC = "M8";
+NET "x[2]" LOC = "V9";
+NET "x[1]" LOC = "T9";
+NET "x[0]" LOC = "T10"; // right most button
+
+// Outputs
+NET "y[2]" LOC = "T11"; // left most LED
+NET "y[1]" LOC = "R11";
+NET "y[0]" LOC = "N11";
+NET "Valid" LOC = "U16";

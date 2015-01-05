@@ -1,0 +1,12 @@
+// Input: D[3:0]
+NET "D[3]" LOC = "T5"; // left most button
+NET "D[2]" LOC = "V8";
+NET "D[1]" LOC = "U8";
+NET "D[0]" LOC = "N8";
+
+// Input: S[1:0]
+NET "S[1]" LOC = "M8";
+NET "S[0]" LOC = "V9";
+
+// Output: Q
+NET "Q" LOC = "T11"; // left most LED

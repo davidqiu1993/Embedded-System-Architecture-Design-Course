@@ -1,0 +1,21 @@
+// Input: T_A, T_B, P, R
+NET "T_A" LOC = "T5"; // left most button
+NET "T_B" LOC = "V8";
+NET "P" LOC = "U8";
+NET "R" LOC = "N8";
+
+// Input: RESET
+NET "RESET" LOC = "B8"; // central button
+
+// Clock: CLK_100M
+NET "CLK_100M" LOC = "V10"; // 100MHz clock
+
+// Output: L_A
+NET "L_A[2]" LOC = "T11"; // left most LED
+NET "L_A[1]" LOC = "R11";
+NET "L_A[0]" LOC = "N11";
+
+// Output: L_B
+NET "L_B[2]" LOC = "M11";
+NET "L_B[1]" LOC = "V15";
+NET "L_B[0]" LOC = "U15";

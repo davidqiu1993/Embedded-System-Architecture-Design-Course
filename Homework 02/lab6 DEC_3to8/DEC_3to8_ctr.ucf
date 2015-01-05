@@ -1,0 +1,14 @@
+// Input
+NET "a[2]" LOC = "T5";
+NET "a[1]" LOC = "V8";
+NET "a[0]" LOC = "U8";
+
+// Output
+NET "y[7]" LOC = "T11";
+NET "y[6]" LOC = "R11";
+NET "y[5]" LOC = "N11";
+NET "y[4]" LOC = "M11";
+NET "y[3]" LOC = "V15";
+NET "y[2]" LOC = "U15";
+NET "y[1]" LOC = "V16";
+NET "y[0]" LOC = "U16";

@@ -1,0 +1,13 @@
+// Input: CLK
+NET "CLK" CLOCK_DEDICATED_ROUTE = FALSE;
+NET "CLK" LOC = "B8"; // central button
+
+// Output: partial_prs[7:0]
+NET "partial_prs[7]" LOC = "T11"; // left most LED
+NET "partial_prs[6]" LOC = "R11";
+NET "partial_prs[5]" LOC = "N11";
+NET "partial_prs[4]" LOC = "M11";
+NET "partial_prs[3]" LOC = "V15";
+NET "partial_prs[2]" LOC = "U15";
+NET "partial_prs[1]" LOC = "V16";
+NET "partial_prs[0]" LOC = "U16"; // right most LED

@@ -1,0 +1,28 @@
+// Input: HexA
+NET "HexA[3]" LOC = "T5"; // left most button
+NET "HexA[2]" LOC = "V8";
+NET "HexA[1]" LOC = "U8";
+NET "HexA[0]" LOC = "N8";
+
+// Input: HexB
+NET "HexB[3]" LOC = "M8";
+NET "HexB[2]" LOC = "V9";
+NET "HexB[1]" LOC = "T9";
+NET "HexB[0]" LOC = "T10"; // right most button
+
+// Clock -> CLK
+NET "CLK" LOC = "B8";
+
+// Output: 7-Segment Display
+NET "SEG[0]" LOC = "T17"; // CA
+NET "SEG[1]" LOC = "T18"; // CB
+NET "SEG[2]" LOC = "U17"; // CC
+NET "SEG[3]" LOC = "U18"; // CD
+NET "SEG[4]" LOC = "M14"; // CE
+NET "SEG[5]" LOC = "N14"; // CF
+NET "SEG[6]" LOC = "L14"; // CG
+NET "dp" LOC = "M13"; // DP
+NET "AN[0]" LOC = "N16"; // AN0
+NET "AN[1]" LOC = "N15"; // AN1
+NET "AN[2]" LOC = "P18"; // AN2
+NET "AN[3]" LOC = "P17"; // AN3
